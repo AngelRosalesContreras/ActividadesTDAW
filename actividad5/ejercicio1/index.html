@@ -2,214 +2,206 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Etiquetas HTML</title>
+    <link rel="stylesheet" href="styles/estilos.css">
   </head>
   <body>
-    <p>El elemento HTML &lt;dl&gt; representa una lista descriptiva.
-      El elemento encierra una lista de grupos de términos (especificados con el uso del elemento &lt;dt&gt;)
-      y de descripciones (proveídas con elementos &lt;dd&gt;). Algunos usos comunes para este elemento son
-      implementar un glosario o para desplegar metadatos (lista de pares llave-valor).
-    </p>
-
-    <p>Cryptids of Cornwall:</p>
-    <dl>
-        <dt>Beast of Bodmin</dt>
-        <dd>A large feline inhabiting Bodmin Moor.</dd>
-
-        <dt>Morgawr</dt>
-        <dd>A sea serpent.</dd>
-
-        <dt>Owlman</dt>
-        <dd>A giant owl-like creature.</dd>
-    </dl>
-
-    <p>El elemento HTML &lt;blockquote&gt crea citas en bloque, marca las citas a otros autores o documentos.</p>
-    <blockquote cite='http://html.conclase.net/w3c/html401...def-BLOCKQUOTE'>
-      <p>
-        <strong>Nota.</strong> Recomendamos que las implementaciones de hojas
-        de estilo porporcionen un mecanismo para insertar signos de puntuación de citas
-        antes y después de una cita delimitada por un BLOCKQUOTE de un modo apropiado según
-        el contexto del idioma actual y el grado de anidamiento de las citas.
-      </p>
-    </blockquote>
-
-    <p>El elemento HTML &lt;q&gt indica que el texto adjunto es una cita corta en línea.
-       La mayoría de los navegadores modernos implementan esto rodeando el texto entre comillas.
-       Este elemento está destinado a citas breves que no requieren saltos de párrafo;
-       para citas de bloque independiente, utiliza el elemento &lt;blockquote&gt.
-    </p>
-    <p>Conforme al sitio web de Mozilla,
-      <q cite="https://www.mozilla.org/en-US/about/history/details/">
-        Firefox 1.0 fue lanzado en 2004 y se convirtió en un gran éxito.
-      </q>
-    </p>
 
     <h1>Etiquetas HTML</h1>
-  <hr>
-  <h3> dl </h3>
-  <hr>
-  <p>El elemento dl representa una lista descriptica. Este elemento encierra una lista de grupos de términos y de descripciones. Algunos usos comunes para este elemento son implementar un glosario o para desplegar metadatos. </p>
+    <hr>
+    <h3> dl </h3>
 
-  <hr>
-  <h3> dt </h3>
-  <hr>
-  <p>Este element especifica un término en una descripción o una lista de definiciones, y como tal debe utilizarse dentro del dl y seguido por un elemento dd, sin embargo, múltiples elementos dt en un renglón indican diferentes términos los cuales todos son definidos por el siguiente elemento dd.</p>
+    <p>El elemento dl representa una lista descriptica. Este elemento encierra una lista de grupos de términos y de descripciones. Algunos usos comunes para este elemento son implementar un glosario o para desplegar metadatos. </p>
 
-  <hr>
-  <h3> dd </h3>
-  <hr>
-  <p>El elemento dd provee detalles acerca de o la definición de un término precedente (dt) en una lista de descripciones (dl).</p>
+    <hr>
+    <h3> dt </h3>
 
-  <div>
-    <strong> <em>Ejemplo de dl, dt, dd</em></strong>
+    <p>Este elemento especifica un término en una descripción o una lista de definiciones, y como tal debe utilizarse dentro del dl y seguido por un elemento dd, sin embargo, múltiples elementos dt en un renglón indican diferentes términos los cuales todos son definidos por el siguiente elemento dd.</p>
 
-    <dl>
-      <dt>Google</dt>
-      <dd>
-        Empresa multinacional estadounidense especializada en servicios y productos relacionados con software, Internet, dispositivos electrónicos y otras tecnologías.
-      </dd>
-    </dl>
-  </div>
+    <hr>
+    <h3> dd </h3>
 
-  <hr>
-  <h3>blockquote</h3>
-  <hr>
-  <p>Permite a los autores insertar citas en forma de bloques de contenido, usualmente compuestas por un párrafo, un grupo de párrafos o un conjunto de muchos otros elementos incluyendo imágenes, tablas y artículos, entre otros.</p>
+    <p>El elemento dd provee detalles acerca de o la definición de un término precedente (dt) en una lista de descripciones (dl).</p>
+    <hr>
+    <div>
+      <strong> <em>Ejemplo de dl, dt, dd</em></strong>
+      <p>Los principales navegadores web instalados en ordenadores</p>
+      <dl>
+        <dt>Google Chrome</dt>
+        <dd>
+          Google Chrome es un navegador sencillo, seguro y rápido gracias a las funciones inteligentes integradas de Google. Además de dichas funciones que te ayudarán a hacer todo lo que quieras (búsquedas rápidas, traducciones con un solo clic, artículos personalizados…)
+        </dd>
+        <dt>Microsoft Edge</dt>
+        <dd>Microsoft Edge es el único navegador con herramientas integradas que te ayudan a ahorrar tiempo y dinero cuando compras online. Posee un gran rendimiento, compatibilidad y velocidad para que navegar por la web sea aún más fácil. </dd>
+        <dt> Firefox</dt>
+        <dd>Firefox es un navegador web que protege tu privacidad, y es que no tiene políticas sospechosas u otras condiciones en las cuales se prioricen los intereses de los anunciantes. Además, al utilizar herramientas que no invadan tu privacidad, la navegación por las páginas web es más rápida. </dd>
+      </dl>
+    </div>
 
-  <div>
-    <strong> <em>Por ejemplo:</em></strong>
-    <p><b>Jesus</b> dijo el 01/19/314</p> <blockquote> <p>Tengo sed…</p> </blockquote> <p>Debes estar bromeando Jesus! </p>
-  </div>
+    <hr>
+    <h3>blockquote</h3>
 
-  <hr>
-  <h3>q</h3>
-  <hr>
-  <p>Este elemento es el hermano menor de blockquote. Este elemento está destinado a citas breves que no requieren saltos de párrafo.</p>
+    <p>Permite a los autores insertar citas en forma de bloques de contenido, usualmente compuestas por un párrafo, un grupo de párrafos o un conjunto de muchos otros elementos incluyendo imágenes, tablas y artículos, entre otros.</p>
 
-  <div>
-    <strong> <em>Por ejemplo:</em> </strong>
-    <p>Personalmente no creo que <q>...de lo contrario tendré que encontrar otra solución!</q> sea un enfoque colaborativo.</p>
-  </div>
+    <div>
+      <strong> <em>Por ejemplo:</em></strong>
 
-  <hr>
-  <h3>cite</h3>
-  <hr>
-  <p>Marca una referencia a una fuente, o el autor de un texto citado. Por ejemplo para mencionar a una persona o cosa en una conversación o escrito.</p>
+      <p><b>Mark</b> dijo el 04/04/2014</p>
+      <blockquote>
+        <p>No creo que esto sea un cambio importante en el juego. De todos modos, si hay un cambio, también puede ser para mejor...</p>
+      </blockquote>
+      <p>Debes estar bromeando Mark! Esto destruirá a la comunidad...</p>
 
-  <div>
-    <strong> <em>Por ejemplo:</em> </strong>
-    <p> <cite>Pitagoras</cite> dijo: "no seas ambicioso…" </p>
-  </div>
+    <hr>
+    <h3>q</h3>
 
-  <hr>
-  <h3>abbr</h3>
-  <hr>
-  <p>Este elemento representa una abreviación o acrónimo.</p>
+    <p>Este elemento es el hermano menor de blockquote. Este elemento está destinado a citas breves que no requieren saltos de párrafo.</p>
 
-  <div>
-    <strong> <em>Por ejemplo:</em> </strong>
-    <p>El <abbr title="Señor">Sr.</abbr> en...</p>
-  </div>
+    <div>
+      <strong> <em>Por ejemplo:</em> </strong>
+      <p>Este sitio web ha sido contruido según el lema de Tim Berners Lee <q cite="http://www.w3.org/People/Berners-Lee/">El poder de la web está en su universalidad. El acceso por parte de todos sin importar la discapacidad es un aspecto esencial</q>.</p>
+    </div>
 
-  <hr>
-  <h3>address</h3>
-  <hr>
-  <p>Provee información de contacto para el autor de la sección o documento, como una dirección postal, una dirección de correo electrónico, un número telefónico, una ciudad, un país, un código postal, etc.</p>
+    <hr>
+    <h3>cite</h3>
 
-  <div>
-    <strong> <em>Por ejemplo:</em> </strong>
-    <address>
-      Karina X <br>
-      <a href="mailto:karinajoanna@hotmail.com">karinajoanna@hotmail.com </a><br>
-      Tlaxcala <br>
-      Mexico  <br>
-      +53 2698903221
-    </address>
-  </div>
+    <p>Marca una referencia a una fuente, o el autor de un texto citado. Por ejemplo para mencionar a una persona o cosa en una conversación o escrito.</p>
 
-  <hr>
-  <h3>sub</h3>
-  <hr>
-  <p>Este elemento representa un subíndice.</p>
+    <div>
+      <strong> <em>Por ejemplo:</em> </strong>
+      <p>
+        <q cite="https://www.mozilla.org/en-US/about/history/details/">
+          Firefox 1.0 fue lanzado en 2004 y se convirtió en un gran éxito.
+        </q>
+      </p>
+    </div>
 
-  <div>
-    <strong> <em>Por ejemplo:</em> </strong>
-    <p>Si <var>X<sub>0</sub></var> es mayor que 0 podemos decir...</p>
-  </div>
+    <hr>
+    <h3>abbr</h3>
 
-  <hr>
-  <h3>sup</h3>
-  <hr>
-  <p>Este elemento representa un superíndice.</p>
+    <p>Este elemento representa una abreviación o acrónimo; el atributo opcional title puede ampliar o describir la abreviatura. Si está presente, el atributo title debe contener la descripción completa y nada más.</p>
 
-  <div>
-    <strong> <em>Por ejemplo:</em> </strong>
-    <p>5000<sup>-1</sup></p>
-  </div>
+    <div>
+      <strong> <em>Por ejemplo:</em> </strong>
+      <p>La <abbr title="Organización Internacional de Normalización">ISO</abbr> es el organismo encargado de promover el desarrollo de normas internacionales de fabricación (tanto de productos como de servicios), comercio y comunicación para todas las ramas industriales.</p>
+    </div>
 
-  <hr>
-  <h3>code</h3>
-  <hr>
-  <p>Este elemento eepresenta a un fragmento de código de computadora, que puede ser cualquier texto legible para computadoras.</p>
+    <hr>
+    <h3>address</h3>
 
-  <div>
-    <strong> <em>Por ejemplo:</em> </strong>
-    <p>La función se declara: <code>function cambiarColor(elemento, evento) { ... }</code> donde no puedes cambiar function<p>
+    <p>Provee información de contacto para el autor de la sección o documento, como una dirección postal, una dirección de correo electrónico, un número telefónico, una ciudad, un país, un código postal, etc.</p>
+
+    <div>
+      <strong> <em>Por ejemplo:</em> </strong>
+      <address>
+        Angel Rosales Contreras <br>
+        <a href="mailto:angel.r.c.utt.4@gmail.com">angel.r.c.utt.4@gmail.com</a><br>
+        El Carmen Tequexquitla <br>
+        Tlaxcala <br>
+        Mexico  <br>
+        +52 2761068665
+      </address>
+    </div>
+
+    <hr>
+    <h3>sub</h3>
+
+    <p>Este elemento representa un subíndice.</p>
+
+    <div>
+      <strong> <em>Por ejemplo:</em> </strong>
+      <p>Encuentra <var>R<sub>in</sub></var> y <var>R<sub>out</sub></var> del Transistor de unión bipolar.</p>
+    </div>
+
+    <hr>
+    <h3>sup</h3>
+
+    <p>Este elemento representa un superíndice.</p>
+
+    <div>
+      <strong> <em>Por ejemplo:</em> </strong>
+      <p>(a+b)<sup>2</sup> = a<sup>2</sup>+2ab+b<sup>2</sup> </p>
+    </div>
+
+    <hr>
+    <h3>code</h3>
+
+    <p>Este elemento representa a un fragmento de código de computadora, que puede ser cualquier texto legible para computadoras.</p>
+
+    <div>
+      <strong> <em>Por ejemplo:</em> </strong>
+      <p>La función siguiente muestra un mensaje al usuario:</p>
+      <code>
+        function mostrarMsj(msj)<br />
+        {<br />
+          alert("El mensaje es: "+msj);<br />
+          mostrado = true;<br />
+        }<br />
+      </code>
+      <p>Pero para que funcione correctamente necesitas declarar primero la variable global "<code>var mostrado = false;</code>".</p>
     </div>
 
     <hr>
     <h3>pre</h3>
-    <hr>
+
     <p>Representa un bloque de texto preformateado donde, en contraste con otros elementos, los espacios continuos y los quiebres de línea son respetados. Este elemento es comúnmente utilizado para mostrar código de computadora, texto plano o arte ascii.</p>
 
     <div>
       <strong> <em>Por ejemplo:</em> </strong>
-      <pre> Las cosas que necesitarás están listadas aquí:
-        - Un foco.
-        - Una caja.
-        - Un cuchillo.
+      <pre>
+        <!--code Tag starts here -->
+        <code>
+        class GFG
+        {
+            // Program begins with a call to main()
+            // Print "Hello, World" to the terminal window
+            public static void main(String args[])
+            {
+                System.out.println("Hello, World");
+            }
+        }
+        <!--code Tag ends here -->
+        </code>
       </pre>
     </div>
 
     <hr>
     <h3>var</h3>
-    <hr>
+
     <p>Representa a una variable, siendo ésta una variable en una fórmula matemática o un código de computadora, una constante, un parámetro en una función, etc.</p>
 
     <div>
       <strong> <em>Por ejemplo:</em> </strong>
-      <p>...donde <var>a</var> representa la longitud de la hipotenusa, y <var>b</var> y <var>c</var> representan las longitudes de los otros dos lados.</p>
+      <p>el bucle no se detendrá hasta que <var>F</var> sea igual a 0.</p>
     </div>
 
     <hr>
     <h3>kbd</h3>
-    <hr>
-    <p>Representa una entrada del usuario que puede ser hecha por teclado o cualquier otro medio</p>
+
+    <p>Representa una entrada del usuario que puede ser hecha por teclado o cualquier otro medio, como mouse, pantalla táctil o comandos de voz.</p>
 
     <div>
       <strong> <em>Por ejemplo:</em> </strong>
-      <p> Si está conforme escriba <kbd>sí</kbd>. Si no, pulse <kbd>esc</kbd></p>
+      <p>Presiona <kbd>Ctrl</kbd> y mantenla presionada mientras presionas <kbd>C</kbd>. Luego pasa al segundo documento y presiona <kbd>Ctrl</kbd> y mantenla presionada mientras presionas <kbd>v</kbd>.</p>
     </div>
 
     <hr>
     <h3>samp</h3>
-    <hr>
+
     <p>Se utiliza para incluir texto en línea que representa una muestra (o cita) de la salida de un programa de ordenador.</p>
 
     <div>
       <strong> <em>Por ejemplo:</em> </strong>
-      <p> ... entonces aparecerá una ventana con el mensaje: <samp>Hola mundo</samp></p>
+      <p>Cuando ingresé el comando, la computadora mostró <samp>Error: comando no encontrado</samp></p>
     </div>
 
     <hr>
     <h3>time</h3>
-    <hr>
-    <p>Este elemento representa fechas, horas, desplazamientos de zonas horarias y duraciones.</p>
 
+    <p>Este elemento representa fechas, horas, desplazamientos de zonas horarias y duraciones.</p>
     <div>
       <strong> <em>Por ejemplo:</em> </strong>
-      <time>2022-07-21</time>
-      <time>2021-12-01</time>
+      <p>la fecha es <time>2022-09-08</time></p>
     </div>
 
   </body>
